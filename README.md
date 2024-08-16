@@ -23,7 +23,7 @@ Este projeto é uma aplicação web para criar e gerenciar campanhas. É compost
 1. Certifique-se de que o Docker está instalado e em execução.
 2. Na raiz do projeto, execute o comando a seguir para iniciar o banco de dados PostgreSQL:
    ```bash
-   docker-compose up -d
+   docker-compose up
 
 ### Configuração Manual (se não usar Docker)
 
@@ -41,4 +41,23 @@ Este projeto é uma aplicação web para criar e gerenciar campanhas. É compost
      ```bash
      CONNECTION_STRING=postgresql://postgres:postgres@localhost:5432/campanhas
      ```
+
+### Configuração do Projeto
+
+1. **Clone o repositório**:
+   ```bash
+   git clone https://github.com/JosielSantos16/Doacoes_campanha.git
+
+2. **Instale as dependência**:
+   ```bash
+   npm install
+
+3. **Inicie o servidor**:
+   ```bash
+   npm run dev
+
+
+A aplicação estará disponível em http://localhost:3000 (ou a porta configurada).
+
+
 
